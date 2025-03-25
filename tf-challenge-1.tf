@@ -12,6 +12,6 @@ terraform {
 }
 
 
-resource "aws_eip" "kplabs_app_ip" {
+resource "aws_eip" "devsecopseasy_ip" {
   vpc      = true
 }
